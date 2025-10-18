@@ -1,0 +1,31 @@
+git add .
+git commit -m ""
+git push origin main --force
+git rm --cached {file}
+
+To Do?
+-JOSS compliant release
+--document document document
+-Type Annotations for easier documentations
+-result plotting...?
+
+
+2025-10-17
+pySphinx documentation started
+
+2025-10-10
+Fitlib summary option added
+
+
+2029-09-30
+spyctra.py imshow() cleaned up so to_plot is recognized and yticklabels make sense
+invlap.py slight formatting changes
+demos.py updated for new imshow() behaviors
+
+
+2029-09-29
+test_suite.py updated with test_suite_4() to cover negative shifts and array inputs to exp_mult, shift, phase. Meta outputs from TNT and SDF tracked.
+
+spyctra.py has better coding checking for array by looking for iterable with hasattr(x, '__iter__'). plot_over() improved plot formatting and code. meta requirements for lists more actively enforced. plot() coding improved.
+
+compare_test_suite_outputs.py now counts all the variables and which ones passed tests
