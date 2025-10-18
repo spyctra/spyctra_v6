@@ -26,3 +26,8 @@ exclude_patterns = []
 
 html_theme = "pydata_sphinx_theme"
 html_static_path = ['_static']
+html_theme_config = {
+    "navbar_start": ["navbar-logo"],
+    "navbar_center": ["navbar-nav"],
+    # ... other configurations
+}
